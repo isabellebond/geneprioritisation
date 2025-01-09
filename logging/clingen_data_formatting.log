@@ -1,0 +1,44 @@
+2025-01-09 15:05:31,744 - INFO - ClinGen data missing Ensembl gene IDs for: ['+++++++++++' 'IGHM' 'IGKC' 'MIR96' 'MT-RNR1' 'MT-RNR2' 'MT-TA' 'MT-TC'
+ 'MT-TD' 'MT-TE' 'MT-TF' 'MT-TG' 'MT-TH' 'MT-TI' 'MT-TK' 'MT-TL1' 'MT-TL2'
+ 'MT-TM' 'MT-TN' 'MT-TP' 'MT-TQ' 'MT-TR' 'MT-TS1' 'MT-TS2' 'MT-TT' 'MT-TV'
+ 'MT-TW' 'MT-TY' 'RMRP' 'RNU4ATAC' 'TERC' 'TRAC']
+2025-01-09 15:05:31,779 - INFO - ClinGen data missing MONDO ancestor IDs for:                                           disease_label    mondo_disease_id
+0                                         +++++++++++++  ++++++++++++++++++
+329                     obsolete adult hypophosphatasia       MONDO_0007798
+330                 obsolete childhood hypophosphatasia       MONDO_0009428
+332                 obsolete infantile hypophosphatasia       MONDO_0009427
+451   focal segmental glomerulosclerosis 4, suscepti...       MONDO_0012931
+535                  obsolete glaucoma 1, open angle, F       MONDO_0011311
+993        malignant hyperthermia, susceptibility to, 5       MONDO_0011163
+1162  focal segmental glomerulosclerosis 3, suscepti...       MONDO_0011917
+1193  susceptibility to respiratory infections assoc...       MONDO_0012161
+2250     obsolete neuronopathy, distal hereditary motor       MONDO_0000075
+2785                   obsolete Birt-Hogg-Dube syndrome       MONDO_0007607
+2930  obsolete early infantile epileptic encephalopathy       MONDO_0016021
+3309  obsolete hyperinsulinism due to short chain 3-...       MONDO_0009278
+3360  obsolete sickle cell disease and related diseases       MONDO_0017146
+3978  amyotrophic lateral sclerosis, susceptibility ...       MONDO_0060670
+4137                  obsolete Stüve-Wiedemann syndrome       MONDO_0011108
+4146          obsolete lysosomal acid lipase deficiency       MONDO_0010204
+4517  obsolete axonal hereditary motor and sensory n...       MONDO_0018775
+4980              obsolete Carey-Fineman-Ziter syndrome       MONDO_0009700
+5245  amyotrophic lateral sclerosis, susceptibility ...       MONDO_0054750
+5524        glaucoma, normal tension, susceptibility to       MONDO_0011693
+6530  epidermodysplasia verruciformis, susceptibilit...       MONDO_0032666
+6689       malignant hyperthermia, susceptibility to, 1       MONDO_0007783
+6725  obsolete autosomal dominant hereditary sensory...       MONDO_0015365
+6911  obsolete autosomal recessive hereditary demyel...       MONDO_0015361
+7405  Mendelian susceptibility to mycobacterial dise...       MONDO_0013956
+7988               obsolete hereditary ATTR amyloidosis       MONDO_0017132
+8222                 obsolete glaucoma 1, open angle, G       MONDO_0012357
+8325             obsolete lethal restrictive dermopathy       MONDO_0010143
+8689  obsolete familial isolated dilated cardiomyopathy       MONDO_0015470
+2025-01-09 15:05:31,779 - INFO - ClinGen disease ancestors are: [nan 'MONDO_0003847' 'MONDO_0021147' 'MONDO_0002254' 'MONDO_0002081'
+ 'MONDO_0004995' 'MONDO_0005046' 'MONDO_0005071' 'MONDO_0044970'
+ 'MONDO_0005066' 'MONDO_0005087' 'MONDO_0002022' 'MONDO_0002025'
+ 'MONDO_0024458' 'MONDO_0004335' 'MONDO_0005151' 'MONDO_0002051'
+ 'MONDO_0005570' 'MONDO_0005137' 'MONDO_0019303' 'MONDO_0002409'
+ 'MONDO_0003900' 'MONDO_0005039' 'MONDO_0002118' 'MONDO_0045024'
+ 'MONDO_0002657' 'MONDO_0019040' 'MONDO_0021166' 'MONDO_0020683'
+ 'MONDO_0006858' 'MONDO_0024623' 'MONDO_0700003' 'MONDO_0700007'
+ 'MONDO_0021669' 'MONDO_0005550']
