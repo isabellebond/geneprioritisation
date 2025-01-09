@@ -1,0 +1,78 @@
+mondo_disease_id	disease_label
+MONDO_0013548	acetyl-CoA acetyltransferase-2 deficiency
+MONDO_0700121	ACTL6A-related BAFopathy
+MONDO_0005308	ciliopathy
+MONDO_0030897	Lessel-Kreienkamp syndrome
+MONDO_0100176	AP-4 deficiency syndrome
+MONDO_0060583	platelet abnormalities with eosinophilia and immune-mediated inflammatory disease
+MONDO_0012075	oligodontia-cancer predisposition syndrome
+MONDO_0700237	BBS10-related ciliopathy
+MONDO_0700236	BBS9-related ciliopathy
+MONDO_0014914	Dias-Logan syndrome
+MONDO_0026727	Shukla-Vernon syndrome
+MONDO_0013308	CBL-related disorder
+MONDO_0030674	Teebi hypertelorism syndrome 2
+MONDO_0100039	CDKL5 disorder
+MONDO_0100451	CEP290-related ciliopathy
+MONDO_0032600	Snijders Blok-Campeau syndrome
+MONDO_0030947	neurodegeneration, childhood-onset, with hypotonia, respiratory insufficiency, and brain imaging abnormalities
+MONDO_0032805	hypopigmentation, organomegaly, and delayed myelination and development
+MONDO_0023880	WHIM syndrome
+MONDO_0032579	warburg-cinotti syndrome
+MONDO_0032882	Heyn-Sproul-Jackson syndrome
+MONDO_0031632	developmental delay with short stature, dysmorphic facial features, and sparse hair
+MONDO_0060510	Cohen-Gibson syndrome
+MONDO_0014227	hypopigmentation-punctate palmoplantar keratoderma syndrome
+MONDO_0012541	deafness with labyrinthine aplasia, microtia, and microdontia
+MONDO_0032842	Siddiqi syndrome
+MONDO_0032913	congenital heart defects, multiple types, 7
+MONDO_0032685	infantile cataract, skin abnormalities, glutamate excess, and impaired intellectual development
+MONDO_0700230	GPR143-related foveal hypoplasia
+MONDO_0030606	Bryant-Li-Bhoj neurodevelopmental syndrome 1
+MONDO_0030993	Tessadori-Van Haaften neurodevelopmental syndrome 3
+MONDO_0100509	IFT140-related recessive ciliopathy
+MONDO_0012423	MORM syndrome
+MONDO_0021060	RASopathy
+MONDO_0009423	hypokalemic alkalosis, familial, with specific renal tubulopathy
+MONDO_0859184	ventriculomegaly and arthrogryposis
+MONDO_0032774	cerebellar, ocular, craniofacial, and genital syndrome
+MONDO_0029131	peripheral neuropathy, autosomal recessive, with or without impaired intellectual development
+MONDO_0100458	MECOM-associated syndrome
+MONDO_0044316	thrombocytopenia, anemia, and myelofibrosis
+MONDO_0030880	mandibuloacral dysplasia progeroid syndrome
+MONDO_0013549	N-acetylaspartate deficiency
+MONDO_0032764	Khan-Khan-Katsanis syndrome
+MONDO_0014174	renal-hepatic-pancreatic dysplasia 2
+MONDO_0030849	intellectual developmental disorder with speech delay and axonal peripheral neuropathy
+MONDO_0030033	seizures, early-onset, with neurodegeneration and brain calcifications
+MONDO_0014984	lung disease, immunodeficiency, and chromosome breakage syndrome;
+MONDO_0025351	multiple congenital anomalies-neurodevelopmental syndrome, X-linked
+MONDO_0060549	congenital anomalies of kidney and urinary tract syndrome with or without hearing loss, abnormal ears, or developmental delay
+MONDO_0032707	turnpenny-fry syndrome
+MONDO_0014008	phosphohydroxylysinuria
+MONDO_0859161	onychodystrophy, osteodystrophy, impaired intellectual development, and seizures syndrome
+MONDO_0032824	glycosylphosphatidylinositol biosynthesis defect 21
+MONDO_0013845	auriculocondylar syndrome 2
+MONDO_0700276	POLR3A-related disorder
+MONDO_0032934	genitourinary and/or brain malformation syndrome
+MONDO_0008057	Carney complex, type 1
+MONDO_0009374	hydroxyprolinemia
+MONDO_0100337	SEC61A1 deficiency
+MONDO_0029144	extraoral halitosis due to methanethiol oxidase deficiency
+MONDO_0007777	hypotaurinemic retinal degeneration and cardiomyopathy
+MONDO_0700123	SMARCC1-associated developmental dysgenesis syndrome
+MONDO_0011323	arhinia, choanal atresia, and microphthalmia
+MONDO_0014778	Lamb-Shaffer syndrome
+MONDO_0859143	Radio-Tartaglia syndrome
+MONDO_0859178	developmental delay, impaired speech, and behavioral abnormalities
+MONDO_0030051	intellectual developmental disorder with autistic features and language delay, with or without seizures
+MONDO_0032745	developmental delay with variable intellectual impairment and behavioral abnormalities
+MONDO_0032922	Beck-Fahrner syndrome
+MONDO_0032601	inflammatory bowel disease, immunodeficiency, and encephalopathy
+MONDO_0032672	intellectual developmental disorder with cardiac defects and dysmorphic facies
+MONDO_0100513	TRAF3 haploinsufficiency
+MONDO_0100111	focal segmental glomerulosclerosis and neurodevelopmental syndrome
+MONDO_0859262	ACCES syndrome
+MONDO_0030878	Kaya-Barakat-Masson syndrome
+MONDO_0060527	maleylacetoacetate isomerase deficiency
+MONDO_0014980	cone-rod dystrophy and hearing loss

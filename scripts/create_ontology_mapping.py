@@ -20,10 +20,11 @@ human_disease_descendants.to_csv(os.path.join(DATA_PATH, 'ontologymapping', 'mon
 
 #Get all descendants
 diseases = []
-for disease in human_disease_descendants['Ontology ID']:
-    descendants = get_all_descendants(ontology, namespace, disease)
+for i,row  in human_disease_descendants.iterrows():
+    descendants = get_all_descendants(ontology, namespace, row['Ontology ID'])
     print(descendants)
-    descendants['Ancestor'] = disease
+    descendants['Ancestor'] = row['Ontology ID']
+    descendants['Ancestor Name'] = row['Name']
     diseases.append(descendants)
     
 diseases = pd.concat(diseases, ignore_index=True)

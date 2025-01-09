@@ -1,43 +1,43 @@
 	Ontology ID	Name
-0	MONDO_0003847	['hereditary disease']
-1	MONDO_0005039	['reproductive system disorder']
-2	MONDO_0021147	['disorder of development or morphogenesis']
-3	MONDO_0024623	['otorhinolaryngologic disease']
-4	MONDO_0005066	['metabolic disease']
-5	MONDO_0019040	['chromosomal disorder']
-6	MONDO_0020683	['acute disease']
-7	MONDO_0021669	['post-infectious disorder']
-8	MONDO_0002051	['integumentary system disorder']
-9	MONDO_0002254	['syndromic disease']
-10	MONDO_0005550	['infectious disease']
-11	MONDO_0005087	['respiratory system disorder']
-12	MONDO_0004335	['digestive system disorder']
-13	MONDO_0021166	['inflammatory disease']
-14	MONDO_0003900	['connective tissue disorder']
-15	MONDO_0002022	['disorder of orbital region']
-16	MONDO_0005151	['endocrine system disorder']
-17	MONDO_0002081	['musculoskeletal system disorder']
-18	MONDO_0002025	['psychiatric disorder']
-19	MONDO_0005570	['hematologic disorder']
-20	MONDO_0004995	['cardiovascular disorder']
-21	MONDO_0005046	['immune system disorder']
-22	MONDO_0700007	['idiopathic disease']
-23	MONDO_0006858	['mouth disorder']
-24	MONDO_0002657	['breast disorder']
-25	MONDO_0002409	['auditory system disorder']
-26	MONDO_0024458	['disorder of visual system']
-27	MONDO_0043459	['radiation-induced disorder']
-28	MONDO_0002118	['urinary system disorder']
-29	MONDO_0005071	['nervous system disorder']
-30	MONDO_0005137	['nutritional disorder']
-31	MONDO_0044991	['upper digestive tract disorder']
-32	MONDO_0044970	['mitochondrial disease']
-33	MONDO_0043839	['ulcer disease']
-34	MONDO_0045024	['cancer or benign tumor']
-35	MONDO_0100086	['perinatal disease']
-36	MONDO_0100366	['occupational disorder']
-37	MONDO_0019303	['premature aging syndrome']
-38	MONDO_0700220	['disease related to transplantation']
-39	MONDO_0029000	['poisoning']
-40	MONDO_0700003	['obstetric disorder']
-41	MONDO_0043543	['iatrogenic disease']
+0	MONDO_0003847	hereditary disease
+1	MONDO_0005039	reproductive system disorder
+2	MONDO_0021147	disorder of development or morphogenesis
+3	MONDO_0024623	otorhinolaryngologic disease
+4	MONDO_0005066	metabolic disease
+5	MONDO_0019040	chromosomal disorder
+6	MONDO_0020683	acute disease
+7	MONDO_0021669	post-infectious disorder
+8	MONDO_0002051	integumentary system disorder
+9	MONDO_0002254	syndromic disease
+10	MONDO_0005550	infectious disease
+11	MONDO_0005087	respiratory system disorder
+12	MONDO_0004335	digestive system disorder
+13	MONDO_0021166	inflammatory disease
+14	MONDO_0003900	connective tissue disorder
+15	MONDO_0002022	disorder of orbital region
+16	MONDO_0005151	endocrine system disorder
+17	MONDO_0002081	musculoskeletal system disorder
+18	MONDO_0002025	psychiatric disorder
+19	MONDO_0005570	hematologic disorder
+20	MONDO_0004995	cardiovascular disorder
+21	MONDO_0005046	immune system disorder
+22	MONDO_0700007	idiopathic disease
+23	MONDO_0006858	mouth disorder
+24	MONDO_0002657	breast disorder
+25	MONDO_0002409	auditory system disorder
+26	MONDO_0024458	disorder of visual system
+27	MONDO_0043459	radiation-induced disorder
+28	MONDO_0002118	urinary system disorder
+29	MONDO_0005071	nervous system disorder
+30	MONDO_0005137	nutritional disorder
+31	MONDO_0044991	upper digestive tract disorder
+32	MONDO_0044970	mitochondrial disease
+33	MONDO_0043839	ulcer disease
+34	MONDO_0045024	cancer or benign tumor
+35	MONDO_0100086	perinatal disease
+36	MONDO_0100366	occupational disorder
+37	MONDO_0019303	premature aging syndrome
+38	MONDO_0700220	disease related to transplantation
+39	MONDO_0029000	poisoning
+40	MONDO_0700003	obstetric disorder
+41	MONDO_0043543	iatrogenic disease
