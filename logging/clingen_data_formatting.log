@@ -1,19 +1,5 @@
-2025-01-09 15:58:57,422 - INFO - ClinGen data missing Ensembl gene IDs for: ['+++++++++++' 'IGHM' 'IGKC' 'MIR96' 'MT-RNR1' 'MT-RNR2' 'MT-TA' 'MT-TC'
+2025-01-10 10:17:12,941 - INFO - ClinGen data missing Ensembl gene IDs for: ['+++++++++++' 'IGHM' 'IGKC' 'MIR96' 'MT-RNR1' 'MT-RNR2' 'MT-TA' 'MT-TC'
  'MT-TD' 'MT-TE' 'MT-TF' 'MT-TG' 'MT-TH' 'MT-TI' 'MT-TK' 'MT-TL1' 'MT-TL2'
  'MT-TM' 'MT-TN' 'MT-TP' 'MT-TQ' 'MT-TR' 'MT-TS1' 'MT-TS2' 'MT-TT' 'MT-TV'
  'MT-TW' 'MT-TY' 'RMRP' 'RNU4ATAC' 'TERC' 'TRAC']
-2025-01-09 15:58:57,472 - INFO - ClinGen data missing MONDO ancestor IDs for 30 disease terms as detailed in "missingdata/clingen.missing_ancestor_ids.txt"
-2025-01-09 15:58:57,473 - INFO - ClinGen disease ancestors are: [nan 'disorder of development or morphogenesis' 'syndromic disease'
- 'musculoskeletal system disorder' 'cardiovascular disorder'
- 'immune system disorder' 'nervous system disorder'
- 'mitochondrial disease' 'metabolic disease' 'respiratory system disorder'
- 'disorder of orbital region' 'psychiatric disorder'
- 'disorder of visual system' 'digestive system disorder'
- 'endocrine system disorder' 'integumentary system disorder'
- 'hematologic disorder' 'nutritional disorder' 'premature aging syndrome'
- 'auditory system disorder' 'connective tissue disorder'
- 'reproductive system disorder' 'urinary system disorder'
- 'cancer or benign tumor' 'breast disorder' 'chromosomal disorder'
- 'inflammatory disease' 'acute disease' 'mouth disorder'
- 'otorhinolaryngologic disease' 'obstetric disorder' 'idiopathic disease'
- 'post-infectious disorder' 'infectious disease']
+2025-01-10 10:17:12,998 - INFO - ClinGen data missing MONDO ancestor IDs for 30 disease terms as detailed in "missingdata/clingen.missing_ancestor_ids.txt"
