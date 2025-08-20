@@ -1,0 +1,6 @@
+*__pycache__*
+*rawdata
+*unformatted
+data/
+logging/
+.DS_Store

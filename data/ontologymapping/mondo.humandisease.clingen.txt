@@ -1,4 +1,5 @@
-mondo_id	mondo_label
+mondo_ancestor_id	ancestor_label
+	
 MONDO_0021147	disorder of development or morphogenesis
 MONDO_0002081	musculoskeletal system disorder
 MONDO_0004995	cardiovascular disorder

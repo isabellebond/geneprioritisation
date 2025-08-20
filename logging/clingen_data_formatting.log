@@ -1,5 +1,0 @@
-2025-01-10 10:17:12,941 - INFO - ClinGen data missing Ensembl gene IDs for: ['+++++++++++' 'IGHM' 'IGKC' 'MIR96' 'MT-RNR1' 'MT-RNR2' 'MT-TA' 'MT-TC'
- 'MT-TD' 'MT-TE' 'MT-TF' 'MT-TG' 'MT-TH' 'MT-TI' 'MT-TK' 'MT-TL1' 'MT-TL2'
- 'MT-TM' 'MT-TN' 'MT-TP' 'MT-TQ' 'MT-TR' 'MT-TS1' 'MT-TS2' 'MT-TT' 'MT-TV'
- 'MT-TW' 'MT-TY' 'RMRP' 'RNU4ATAC' 'TERC' 'TRAC']
-2025-01-10 10:17:12,998 - INFO - ClinGen data missing MONDO ancestor IDs for 30 disease terms as detailed in "missingdata/clingen.missing_ancestor_ids.txt"

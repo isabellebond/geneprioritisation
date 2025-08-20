@@ -111,8 +111,7 @@ def read_and_explode_opentargets(opentargets_path, column_name, ontology_map, ge
     return opentargets_df
 
 def format_protein_data(protein_path, gene_disease_data):
-    protein_df = pd.read_csv(protein_path, sep = '\s++')
-    print(protein_df.columns)
+    protein_df = pd.read_csv(protein_path, sep = '\s+')
 
     protein_df.loc[:,'protein1'] = protein_df['protein1'].str.split('.').str[1]
     protein_df.loc[:,'protein2'] = protein_df['protein2'].str.split('.').str[1]
@@ -124,26 +123,18 @@ def format_protein_data(protein_path, gene_disease_data):
     definitive_genes = definitive_genes.drop_duplicates(subset = ['gene_id', 'mondo_ancestor_id'], keep = 'first')
     definitive_genes = definitive_genes.rename(columns = {'protein_id': 'linked_protein_id'})
 
-    print(definitive_genes.columns)
-
     definitive_genes = definitive_genes[['linked_protein_id', 'mondo_ancestor_id']]
 
     definitive_genes = definitive_genes.merge(protein_df, on = 'linked_protein_id', how = 'inner')
-    print(definitive_genes)
 
     all_genes = gene_disease_data.merge(definitive_genes, on = ['protein_id', 'mondo_ancestor_id'], how = 'inner')
     all_genes = all_genes[['gene_name', 'gene_id', 'mondo_disease_id', 'mondo_ancestor_id', 'protein_id', 'linked_protein_id','experimental']]
     score = all_genes.sort_values(by = ['experimental'], ascending=False)
     score = score.drop_duplicates(keep = 'first', subset = ['gene_id', 'mondo_ancestor_id'])
 
-    print(score)
+    link_count = all_genes.loc[all_genes['experimental'] > 0]
 
-    all_genes = all_genes.loc[all_genes['experimental']>= 0.7, :]
-    link_count = all_genes.groupby(['gene_id','mondo_ancestor_id'])['linked_protein_id'].count().reset_index()
-    link_count = link_count.rename(columns = {'linked_protein_id': 'linked_protein_count'})
-    link_count = link_count.merge(all_genes, on = ['gene_id', 'mondo_ancestor_id'], how = 'left')
-
-    link_count = link_count[['gene_name', 'gene_id', 'mondo_disease_id', 'mondo_ancestor_id', 'protein_id','linked_protein_count']].drop_duplicates(keep = 'first')
+    link_count = link_count[['gene_name', 'gene_id', 'mondo_disease_id', 'mondo_ancestor_id', 'linked_protein_id','protein_id', 'experimental']].drop_duplicates(keep = 'first')
 
     #count number is wrong
     print(link_count)
