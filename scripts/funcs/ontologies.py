@@ -138,7 +138,7 @@ def get_term_from_label(namespace, label, ontology, prefix='obo.'):
     
     return list(set(ids))  # Remove duplicates
         
-def get_descendants(namespace, entity_id, names=True, prefix='obo.', direct_only=False, leaf_only=False):
+def get_descendants(onto, namespace, entity_id, alternate_iri = None, names=True, prefix='obo.', direct_only=False, leaf_only=False):
     """
     Retrieve ontology descendants for a given entity.
 
@@ -188,7 +188,13 @@ def get_descendants(namespace, entity_id, names=True, prefix='obo.', direct_only
     0   GO_0005741  mitochondrial matrix
     1   GO_0005742  mitochondrial inner membrane
     """
-    entity = namespace[entity_id]
+
+    if alternate_iri:
+        entity = onto.search_one(iri=f'{alternate_iri}{entity_id}')
+    else:
+        entity = namespace[entity_id]
+    print(entity, entity_id)
+
     seen = set()
     descendants = []
     leaf_terms = []
