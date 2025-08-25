@@ -1,0 +1,23 @@
+	mondo_ancestor_id	ancestor_label
+0		
+1	MONDO_0005071	nervous system disorder
+9	MONDO_0005087	respiratory system disorder
+11	MONDO_0002022	disorder of orbital region
+12	MONDO_0002025	psychiatric disorder
+13	MONDO_0024458	disorder of visual system
+15	MONDO_0004335	digestive system disorder
+16	MONDO_0005151	endocrine system disorder
+27	MONDO_0002051	integumentary system disorder
+43	MONDO_0005570	hematologic disorder
+59	MONDO_0002081	musculoskeletal system disorder
+60	MONDO_0004995	cardiovascular disorder
+99	MONDO_0021147	disorder of development or morphogenesis
+144	MONDO_0002409	auditory system disorder
+260	MONDO_0005046	immune system disorder
+261	MONDO_0003900	connective tissue disorder
+458	MONDO_0005039	reproductive system disorder
+510	MONDO_0002118	urinary system disorder
+537	MONDO_0045024	cancer or benign tumor
+875	MONDO_0002657	breast disorder
+3029	MONDO_0006858	mouth disorder
+3993	MONDO_0024623	otorhinolaryngologic disease
