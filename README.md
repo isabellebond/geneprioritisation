@@ -33,14 +33,14 @@ This is the dataset to be used for creating cases and controls:
 ## Manual curation of mapping file between ontologies
 Each unique moondo ancestor was saved to the file 'data/ontology_mapping.starter.txt.' To allow for collation of data between different datasets, each of these ancestors was mapped to either a relevant ontology term or a data subsection if relevant:
 
-| Ontology/ Labelling Scheme | Ontology Term | Dataset |
-|------------------------|-----|--------------------------------------|
-| Mondo | human disease | ClinGen |
-| Mammilian phenotype ontology | mammalian phenotype | Mouse Genome Informatics  |
-| UK Biobank Chapter Encoding |  | AZ PheWAS |
-| Experimental Factor Ontology | disease | Opentargets Locus2Gene |
-| Human Phenotype Ontology | Phenotypic abnormality | Chembl |
-| Opentargets organ systems | | RNA/Protein Expression |
+| Ontology/ Labelling Scheme | Ontology Term | Dataset | Data available|
+|------------------------|-----|--------------------------------------|--------|
+| Mondo | human disease | ClinGen | data/clingen.formatted.txt |
+| Mammilian phenotype ontology | mammalian phenotype | Mouse Genome Informatics  | data/features/mouse.txt |
+| UK Biobank Chapter Encoding |  | AZ PheWAS | Need to request up to date from Astrazeneca |
+| Experimental Factor Ontology | disease | Opentargets Locus2Gene | data/features/gwas_l2g.txt |
+| Human Phenotype Ontology | Phenotypic abnormality | Chembl | |
+| Opentargets organ systems | | RNA/Protein Expression | data/features/expression.txt |
 
 This data is saved in 'data/ontology_mapping.manualedits.txt
 
@@ -48,6 +48,7 @@ This data is saved in 'data/ontology_mapping.manualedits.txt
 - ** Not included ** Astra Zeneca rare variant burden testing results. I didn't incorporate this into files as they have now released a [WGS 500K dataset](https://azphewas.com/about) (I was using 470K) - file headings may be different. You can email them to get the full dataset (CGR-Informatics-Support@astrazeneca.com.)
 - Expression data from opentargets.
 - Protein linking data from [String](https://string-db.org/cgi/download?sessionId=bscuhgQuCQxz) - detailed links file. Looking for known experimental links between known cligen genes involved in disease and the genes of interest. A link is said to have moderate evidence if the experimental score is above 400. Data for all links with non-zero data is recorded. If there is more than one protein with a link, values are separated by '; '.
-- Chembl known drugs (from opentargets). Drugs with an indication for a linked 'Phenotypic abnormality' in the human phenotype ontology. ** Abi's drug tractability data might be better to use here **
-- 
+- Chembl known drugs (from opentargets). Drugs with an indication for a linked 'Phenotypic abnormality' in the human phenotype ontology, not available as outdated. ** Abi's drug tractability data might be better to use here **
+- GWAS assocation data using [Opentargets l2g data](https://platform-docs.opentargets.org/gentropy/locus-to-gene-l2g#:~:text=Based%20on%20genetic%20and%20functional,ranging%20from%200%20to%201.). The GWAS association must be with a matched efo ancestor term as defined in ontology_mapping.manualedits.txt. An association is said to be True if l2g score is > 0.5.
+- Mouse phenotype data downloaded from Opentargets, sourced from [Mouse Genome Informatics](https://www.informatics.jax.org/). 
 
