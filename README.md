@@ -44,8 +44,10 @@ Each unique moondo ancestor was saved to the file 'data/ontology_mapping.starter
 
 This data is saved in 'data/ontology_mapping.manualedits.txt
 
-## Phenotype data used to input into feature matrix
+## Phenotype data used to input into feature datasets
 - ** Not included ** Astra Zeneca rare variant burden testing results. I didn't incorporate this into files as they have now released a [WGS 500K dataset](https://azphewas.com/about) (I was using 470K) - file headings may be different. You can email them to get the full dataset (CGR-Informatics-Support@astrazeneca.com.)
 - Expression data from opentargets.
 - Protein linking data from [String](https://string-db.org/cgi/download?sessionId=bscuhgQuCQxz) - detailed links file. Looking for known experimental links between known cligen genes involved in disease and the genes of interest. A link is said to have moderate evidence if the experimental score is above 400. Data for all links with non-zero data is recorded. If there is more than one protein with a link, values are separated by '; '.
+- Chembl known drugs (from opentargets). Drugs with an indication for a linked 'Phenotypic abnormality' in the human phenotype ontology. ** Abi's drug tractability data might be better to use here **
+- 
 
